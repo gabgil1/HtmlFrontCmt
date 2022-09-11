@@ -1,0 +1,49 @@
+.navbar.navbar-expand-lg.bg-secondary {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,108,1) 49%, rgba(2,0,36,1) 100%);
+}
+
+body{
+    background-image: url(assets/img/violeta.png) ;
+    background-size: auto;
+    background-position: center;
+    min-height: 100vh;
+} 
+
+i.fa-brands.fa-facebook.fa-x1,
+i.fa-brands.fa-linkedin.fa-x1:hover,
+i.fa-brands.fa-instagram.fa-x1:hover{
+    color: #fff;
+}
+
+
+i.fa-brands.fa-facebook.fa-x1:hover{
+    color:blue;
+}
+i.fa-brands.fa-linkedin.fa-x1:hover{
+    color:rgb(0, 255, 255);
+}
+i.fa-brands.fa-instagram.fa-x1:hover{
+    color:rgb(255, 0, 149);
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+section.perfil{
+    padding-top:0rem !important;
+   
+    position: relative; /*hace que muevas relativamente su posición*/
+    top: 50px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+    left: 10px; /*Pixeles a la izquierda de su posición natural*/
+    right: 10px; /*Pixeles a la derecha de su posición natural*/
+     
+}
+section.dashboard, section.panel{
+    margin-top: 9rem;
+
+}
+section.about{
+    margin-top= 15rem;
+}
